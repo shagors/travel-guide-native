@@ -60,9 +60,13 @@ const Discover = () => {
           onPress={(data, details = null) => {
             // 'details' is provided when fetchDetails = true
             console.log( details?.geometry?.viewport);
+            setBl_lat(details?.geometry?.viewport?.southwest?.lat);
+            setBl_lng(details?.geometry?.viewport?.southwest?.lng);
+            setTr_lat(details?.geometry?.viewport?.northeast?.lat);
+            setTr_lng(details?.geometry?.viewport?.northeast?.lng);
           }}
           query={{
-            key: '',
+            key: 'Paid_Api_key_here',
             language: 'en',
           }}
         />
