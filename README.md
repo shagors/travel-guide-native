@@ -1,14 +1,16 @@
-# [Run this project with expo]
+# Below Some screen Images You can check it
 
 ### exp://exp.host/@shajjadshagor/travel-guide?release-channel=default
 
-# If you want to run this project you must first install node package and then I use hear env for secure my key thats why you need your api key.
+### If you want to run this project you must first install node package and then I use hear env for secure my key thats why you need your api key.
 
 ### What I use for this
     * THis is React Native Expo Project
     * Google Map api key for place location
-    * use country details, restaurant, places and  amusement from rapid api key travel guide
-    * use expo icons, react-native-animatable, react-native-safe-area-context, react-native-google-places-autocomplete
+    * use country details, restaurant, places and 
+        amusement from rapid api key travel guide
+    * use expo icons, react-native-animatable, 
+        react-native-safe-area-context, react-native-google-places-autocomplete
     * For design tailwindcss-react-native 
 
 ![preview img](/cap-1.jpg)
